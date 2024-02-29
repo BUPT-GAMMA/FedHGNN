@@ -1,5 +1,5 @@
 # FedHGNN
-The source code of WWW 2024 paper "Federated Heterogeneous Graph Neural Network for Privacy-preserving Recommendation"
+The source code of WWW 2024 paper "Federated Heterogeneous Graph Neural Network for Privacy-preserving Recommendation" (http://www.shichuan.org/doc/173.pdf)
 
 
 # Requirements
@@ -19,7 +19,7 @@ torchvision==0.13.1+cu113
 # Easy Run
 ```
 cd ./codes/FedHGNN
-python main.py --dataset acm --shared_num 20 --p1 1 --p2 2 --lr 0.01 --device cuda:0
+python main.py --dataset acm --shared_num 20 --p1 1 --p2 1 --lr 0.01 --device cuda:0
 ```
 
 
